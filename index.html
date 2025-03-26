@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Keeper</title>
+    <!--* CSS Link-->
+    <link rel="stylesheet" href="style.css">
+    <!-- * Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- * Wrapper -->
+     <div class="wrapper">
+        <!-- * Add Box -->
+         <li class="add-box">
+            <div class="icon">
+                <i class='bx bx-plus'></i>
+            </div>
+            <p>Add new note</p>
+        </li>
+
+         <!-- <li class="note">
+               <div class="details">
+                  <p class="title">TITLE</p>
+                  <p class="description">DESCRIPTION</p>
+               </div>        
+                <div class="bottom">
+                  <span>February 22,2025</span>
+                  <div class="settings">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                    <ul class="menu">
+                        <li><i class='bx bx-edit'></i> Duzenle</li>
+                        <li><i class='bx bx-trash-alt'></i> Sil</li>
+                    </ul>
+                  </div>
+                </div>
+         </li>
+         <li class="note">
+           
+               <div class="details">
+                  <p class="title">TITLE</p>
+                  <p class="description">DESCRIPTION</p>
+               </div>
+               
+                <div class="bottom">
+                  <span>February 22,2025</span>
+                  <div class="settings show">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                    <ul class="menu">
+                        <li><i class='bx bx-edit'></i> Duzenle</li>
+                        <li><i class='bx bx-trash-alt'></i> Sil</li>
+                    </ul>
+                  </div>
+                </div>
+         </li>
+         <li class="note">
+            
+               <div class="details">
+                  <p class="title">TITLE</p>
+                  <p class="description">DESCRIPTION</p>
+               </div>
+               
+                <div class="bottom">
+                  <span>February 22,2025</span>
+                  <div class="settings">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                    <ul class="menu">
+                        <li><i class='bx bx-edit'></i> Duzenle</li>
+                        <li><i class='bx bx-trash-alt'></i> Sil</li>
+                    </ul>
+                  </div>
+                </div>
+         </li>
+         <li class="note">
+            
+               <div class="details">
+                  <p class="title">TITLE</p>
+                  <p class="description">DESCRIPTION</p>
+               </div>
+               
+                <div class="bottom">
+                  <span>February 22,2025</span>
+                  <div class="settings">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                    <ul class="menu">
+                        <li><i class='bx bx-edit'></i> Duzenle</li>
+                        <li><i class='bx bx-trash-alt'></i> Sil</li>
+                    </ul>
+                  </div>
+                </div>
+         </li>
+         <li class="note">
+        
+               <div class="details">
+                  <p class="title">TITLE</p>
+                  <p class="description">DESCRIPTION</p>
+               </div>
+               
+                <div class="bottom">
+                  <span>February 22,2025</span>
+                  <div class="settings">
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                    <ul class="menu">
+                        <li><i class='bx bx-edit'></i> Duzenle</li>
+                        <li><i class='bx bx-trash-alt'></i> Sil</li>
+                    </ul>
+                  </div>
+                </div>
+         </li> -->
+     </div>
+
+     <!-- * Popup-->
+      <div class="popup-box">
+         <div class="popup">
+            <div class="content">
+               <!-- Header -->
+                <header>
+                  <p>New Note</p>
+                  <i id="close-btn" class='bx bx-x'></i>
+                </header>
+                <!-- Form-->
+                 <form>
+                  <!--Title-->
+                    <div class="row title">
+                      <label>Title</label>
+                      <input type="text" id="title-input" />
+                      <small class="error" id="title-error"></small>
+                    </div>
+                    <!--Description-->
+                    <div class="row description">
+                     <label>Description</label>
+                     <textarea id="description-input"></textarea>
+                     <small class="error" id="description-error"></small>
+                    </div>
+                    <button type="submit" id="submit-btn">Add Note</button>
+                 </form>
+            </div>
+         </div>
+      </div>
+
+      <div class="custom-modal" id="deleteModal">
+        <div class="modal-content">
+          <p>Are you sure you want to delete this note?</p>
+          <div class="buttons">
+            <button id="cancelBtn">Cancel</button>
+            <button id="confirmBtn">Yes, Delete</button>
+          </div>
+        </div>
+      </div>
+      
+
+    <!-- * JS Link-->
+    <script src="./js/main.js"></script>
+</body>
+</html>
