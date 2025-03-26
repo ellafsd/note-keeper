@@ -5,7 +5,7 @@ A sleek, web-based note-taking application that allows users to add, edit, and d
 
 ## 🎥 Preview
 
-https://github.com/user-attachments/assets/423dd0cb-8740-46c1-adfc-78af583c4098  <br><br>
+https://github.com/user-attachments/assets/423dd0cb-8740-46c1-adfc-78af583c4098  
 
 
 
