@@ -1,10 +1,13 @@
 ## 📘 Note Keeper App
 
-A web-based note-taking application where users can add, edit, and delete notes. All data is stored locally in the browser using `localStorage`, ensuring your notes persist even after refreshing the page.
+A sleek, web-based note-taking application that allows users to add, edit, and delete notes directly in the browser. Notes include a title, description, and automatically generated date. All data is stored locally using `localStorage`, so your notes persist even after refreshing the page.
 
-## 🎥 Demo
 
-[Click here to watch the demo](./images/noteKeeper.mp4)
+## 🎥 Preview
+
+https://github.com/user-attachments/assets/423dd0cb-8740-46c1-adfc-78af583c4098
+
+
 
 
 ## 🎥 Demo
